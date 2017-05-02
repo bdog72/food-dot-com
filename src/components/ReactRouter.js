@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import Everything from './Everything'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 const restaurants1 = () => (
   <div>
-    <h2>Restaurant-1</h2>
+    <Everything />
   </div>
 )
 
@@ -20,7 +21,7 @@ const BasicExample = () => (
       <li><Link to='/restaurants2'>Restaurant-2</Link></li>
       <hr />
       <Route exact path='/' component={restaurants1} />
-      <Route exact path='/restaurants2' component={restaurants2} />
+      <Route path='/restaurants2' component={restaurants2} />
     </div>
   </Router>
 )
