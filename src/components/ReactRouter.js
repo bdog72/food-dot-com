@@ -17,8 +17,10 @@ const restaurants2 = () => (
 const BasicExample = () => (
   <Router>
     <div>
-      <li><Link to='/'>Restaurant-1</Link></li>
-      <li><Link to='/restaurants2'>Restaurant-2</Link></li>
+      <ul>
+        <li><Link to='/'><h2>Group-1</h2></Link></li>
+        <li><Link to='/restaurants2'><h2>Group-2</h2></Link></li>
+      </ul>
       <hr />
       <Route exact path='/' component={restaurants1} />
       <Route path='/restaurants2' component={restaurants2} />

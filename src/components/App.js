@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
-import { Button } from 'react-bootstrap'
+import ReactRouter from './ReactRouter'
+// import { Button } from 'react-bootstrap'
 
-const WellStyles = {maxWidth: 400, margin: '0 auto 10px'}
+// const WellStyles = {maxWidth: 400, margin: '0 auto 10px'}
 
 export default class App extends Component {
   render () {
     return <div>
-      <h1>Food-Dot-Com</h1>
+      <h1>Food</h1>
+
+      <ReactRouter />
+      {/* <h1>Food-Dot-Com</h1>
       <div className='well' style={WellStyles}>
         <a href='https://www.bjsrestaurants.com'>
           <Button className='butt' block>BJ's BrewHouse</Button>
@@ -38,7 +42,7 @@ export default class App extends Component {
         <a href='http://www.babalueats.com/'>
           <Button className='butt' block>Babalu</Button>
         </a>
-      </div>
+      </div> */}
     </div>
   }
 }
