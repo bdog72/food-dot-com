@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap'
 
 const WellStyles = {maxWidth: 400, margin: '0 auto 10px'}
 
-export default class Everything1 extends Component {
+export default class Group1 extends Component {
   render () {
     return <div>
       <div className='well' style={WellStyles}>

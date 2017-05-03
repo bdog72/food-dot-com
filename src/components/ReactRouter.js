@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
-import Everything from './Everything'
+import Group1 from './Group1'
+import Group2 from './Group2'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 const restaurants1 = () => (
   <div>
-    <Everything />
+    <Group1 />
   </div>
 )
 
 const restaurants2 = () => (
   <div>
-    <h2>Restaurant-2</h2>
+    <Group2 />
   </div>
 )
 
@@ -21,7 +22,7 @@ const BasicExample = () => (
         <li><Link to='/'><h2>Group-1</h2></Link></li>
         <li><Link to='/restaurants2'><h2>Group-2</h2></Link></li>
       </ul>
-      <hr />
+      {/* <hr /> */}
       <Route exact path='/' component={restaurants1} />
       <Route path='/restaurants2' component={restaurants2} />
     </div>
