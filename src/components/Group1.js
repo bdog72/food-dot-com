@@ -37,6 +37,12 @@ export default class Group1 extends Component {
         <a href='http://www.babalueats.com/'>
           <Button className='butt' block>Babalu</Button>
         </a>
+        <a href='http://www.casualclam.com'>
+          <Button className='butt' block>Casual Clam</Button>
+        </a>
+        <a href='https://www.bonefishgrill.com'>
+          <Button className='butt' block>BoneFish Grill</Button>
+        </a>
       </div>
     </div>
   }
