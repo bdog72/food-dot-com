@@ -10,12 +10,12 @@ html {
 body {
   margin: 20px;
   font: $base-text-size / 1 $base-font-family;
-  background-color: #5a8c5d;
+  background-color: #87a5cc;
 }
 
 h1 {
   text-align: center;
-  font-size: 75px;
+  font-size: 100px;
   margin: 30px 0;
   font-family: 'Luckiest Guy';
 }
@@ -24,20 +24,32 @@ h1 {
   font-size: 20px;
   margin: 5px 0;
   padding: 10px;
-  color: #b5babf;
-  background-color: #022326;
+  color: white;
+  background-color: #2e517f;
   text-decoration: none;
 }
 
 ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
+
+  li {
+    padding: 10px;
+  }
 }
 
 h2 {
-  color: #022326; 
+  color: #022326;
 }
 // #b5babf;
 // #022326;
 // #063331;
 // #314A4D;
 // #5A8C5D;
+
+// #809cc1;
+// #5da3ff;
+// #a9ceff;
+// #2e517f;
+// #87a5cc;
