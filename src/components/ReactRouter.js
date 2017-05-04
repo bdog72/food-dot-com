@@ -19,8 +19,8 @@ const BasicExample = () => (
   <Router>
     <div>
       <ul>
-        <li><Link to='/'><h2>Group-1</h2></Link></li>
-        <li><Link to='/restaurants2'><h2>Group-2</h2></Link></li>
+        <li><Link to='/'><h2>Group 1</h2></Link></li>
+        <li><Link to='/restaurants2'><h2>Group 2</h2></Link></li>
       </ul>
       {/* <hr /> */}
       <Route exact path='/' component={restaurants1} />

@@ -7,7 +7,9 @@ import ReactRouter from './ReactRouter'
 export default class App extends Component {
   render () {
     return <div>
-      <h1>Food</h1>
+      <h1>Restaurants</h1>
+      <h2>I</h2>
+      <h2>Enjoy</h2>
       <ReactRouter />
     </div>
   }
