@@ -16,6 +16,9 @@ export default class Group3 extends Component {
         <a href='https://www.midpeninsulaseafood.com/'>
           <Button className='butt' block>Mid Peninsula Seafood</Button>
         </a>
+        <a href='http://www.mazzarosmarket.com/'>
+          <Button className='butt' block>Mazzaro's Italian Market</Button>
+        </a>
       </div>
     </div>
   }
