@@ -28,6 +28,9 @@ export default class Group3 extends Component {
         <a href='http://www.senortacomexicanrestaurant.com'>
           <Button className='butt' block>Senor Taco</Button>
         </a>
+        <a href='http://www.rickyps.com'>
+          <Button className='butt' block>Ricky P's</Button>
+        </a>
       </div>
     </div>
   }
