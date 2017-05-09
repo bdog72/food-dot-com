@@ -31,6 +31,9 @@ export default class Group3 extends Component {
         <a href='http://www.rickyps.com'>
           <Button className='butt' block>Ricky P's</Button>
         </a>
+        <a href='http://www.pofolks.net'>
+          <Button className='butt' block>Po Folks</Button>
+        </a>
       </div>
     </div>
   }
