@@ -40,6 +40,9 @@ export default class Group3 extends Component {
         <a href='http://noble-crust.com/Noble-Crust-St-Petersburg/Brunch'>
           <Button className='butt' block>Noble Crust</Button>
         </a>
+        <a href='https://www.outback.com/locations/fl/st-pete-4th'>
+          <Button className='butt' block>Outback SteakHouse</Button>
+        </a>
       </div>
     </div>
   }
