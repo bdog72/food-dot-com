@@ -19,6 +19,7 @@ body {
 
 .jumbo {
   background: #5e5e5e;
+  border-radius: 10PX;
 }
 
 h1 {
@@ -37,10 +38,11 @@ h2 {
 
 .well {
   background-color: #303030;
+  border-radius: 10PX;
 }
 
 .butt {
-  font-size: 20px;
+  font-size: 25px;
   margin: 5px 0;
   padding: 10px;
   color: white;
@@ -52,7 +54,7 @@ h2 {
 ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   // flex-direction: column;
 
@@ -64,6 +66,7 @@ ul {
 
 h2 {
   color: white;
+  padding: 10PX;
 }
 // #b5babf;
 // #022326;

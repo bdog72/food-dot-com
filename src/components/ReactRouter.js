@@ -34,7 +34,7 @@ const BasicExample = () => (
     <div>
       <Jumbotron className='jumbo'>
         <ul>
-          <li><Link to='/'><h2>Group<br />1</h2></Link></li>
+          <li><Link to='/'><h2>PIZZA</h2></Link></li>
           <li><Link to='/restaurants2'><h2>Group<br />2</h2></Link></li>
           <li><Link to='/restaurants3'><h2>Group<br />3</h2></Link></li>
           <li><Link to='/restaurants4'><h2>Group<br />4</h2></Link></li>

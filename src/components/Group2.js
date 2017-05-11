@@ -21,26 +21,41 @@ export default class Group2 extends Component {
       <a href='http://biffburgers.com'>
         <Button className='butt' block>Biff Burger</Button>
       </a>
-      <a href='https://tobysoriginallittleitalypizza.com'>
-        <Button className='butt' block>Little Italy</Button>
+      <a href='https://www.bjsrestaurants.com'>
+        <Button className='butt' block>BJ's BrewHouse</Button>
       </a>
-      <a href='http://laitaliamia.com'>
-        <Button className='butt' block>Italia Mia</Button>
+      <a href='http://pollotropical.com'>
+        <Button className='butt' block>Pollo Tropical</Button>
       </a>
-      <a href='http://paisanospnp.com'>
-        <Button className='butt' block>Paisanos</Button>
+      <a href='https://www.glorydaysgrill.com'>
+        <Button className='butt' block>Glory Days</Button>
       </a>
-      <a href='http://www.28gramspizza.com'>
-        <Button className='butt' block>28 Grams</Button>
+      <a href='http://cheddars.com'>
+        <Button className='butt' block>Cheddars</Button>
       </a>
-      <a href='https://www.pizzabox727.com'>
-        <Button className='butt' block>Pizza Box</Button>
+      <a href='https://www.peiwei.com'>
+        <Button className='butt' block>Pei Wei</Button>
       </a>
-      <a href='http://www.unclemaddios.com'>
-        <Button className='butt' block>Uncle Maddio's</Button>
+      <a href='http://www.hookssushi.com/'>
+        <Button className='butt' block>Hooks</Button>
       </a>
-      <a href='http://joeybrooklynsfamouspizzakitchen.com'>
-        <Button className='butt' block>Joey Brooklyns</Button>
+      <a href='https://tijuanaflats.com'>
+        <Button className='butt' block>Tijuana Flats</Button>
+      </a>
+      <a href='https://www.eatpdq.com'>
+        <Button className='butt' block>PDQ</Button>
+      </a>
+      <a href='http://www.eatfreshkitchen.com'>
+        <Button className='butt' block>Fresh Kitchen</Button>
+      </a>
+      <a href='http://www.babalueats.com/'>
+        <Button className='butt' block>Babalu</Button>
+      </a>
+      <a href='http://www.casualclam.com'>
+        <Button className='butt' block>Casual Clam</Button>
+      </a>
+      <a href='https://www.bonefishgrill.com'>
+        <Button className='butt' block>BoneFish Grill</Button>
       </a>
     </div>
   }
