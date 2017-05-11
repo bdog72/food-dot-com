@@ -10,11 +10,15 @@ html {
 body {
   margin: 20px;
   font: $base-text-size / 1 $base-font-family;
-  background-color: #87a5cc;
+  background-color: #e8e8e8;
 }
 
 .header {
   display: flex;
+}
+
+.jumbo {
+  background: #5e5e5e;
 }
 
 h1 {
@@ -31,13 +35,18 @@ h2 {
   font-family: 'Luckiest Guy';
 }
 
+.well {
+  background-color: #303030;
+}
+
 .butt {
   font-size: 20px;
   margin: 5px 0;
   padding: 10px;
   color: white;
-  background-color: #2e517f;
+  background-color: #949494;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 ul {
@@ -54,7 +63,7 @@ ul {
 }
 
 h2 {
-  color: #022326;
+  color: white;
 }
 // #b5babf;
 // #022326;
@@ -67,3 +76,8 @@ h2 {
 // #a9ceff;
 // #2e517f;
 // #87a5cc;
+
+// #303030;
+// #5e5e5e;
+// #949494;
+// #E8E8E8;

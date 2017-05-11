@@ -32,7 +32,7 @@ const restaurants4 = () => (
 const BasicExample = () => (
   <Router>
     <div>
-      <Jumbotron>
+      <Jumbotron className='jumbo'>
         <ul>
           <li><Link to='/'><h2>Group<br />1</h2></Link></li>
           <li><Link to='/restaurants2'><h2>Group<br />2</h2></Link></li>
