@@ -43,6 +43,9 @@ export default class Group3 extends Component {
         <a href='https://www.outback.com/locations/fl/st-pete-4th'>
           <Button className='butt' block>Outback SteakHouse</Button>
         </a>
+        <a href='http://www.thaiwokstpete.com'>
+          <Button className='butt' block>Thai Wok</Button>
+        </a>
       </div>
     </div>
   }
