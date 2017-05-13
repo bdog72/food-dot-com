@@ -33,15 +33,20 @@ const BasicExample = () => (
   <Router>
     <div>
       <Jumbotron className='jumbo'>
-        <ul>
-          <li><Link to='/'><h2>PIZZA</h2></Link></li>
+        {/* <ul>
+          <li><Link to='/'>PIZZA</Link></li>
           <li><Link to='/restaurants2'><h2>Group<br />2</h2></Link></li>
           <li><Link to='/restaurants3'><h2>Group<br />3</h2></Link></li>
           <li><Link to='/restaurants4'><h2>Group<br />4</h2></Link></li>
-        </ul>
-      </Jumbotron>
+        </ul> */}
+        <div className='groups'>
+          <Link to='/'><h2>PIZZA</h2></Link>
+          <Link to='/restaurants2'><h2>Group<br />2</h2></Link>
+          <Link to='/restaurants3'><h2>Group<br />3</h2></Link>
+          <Link to='/restaurants4'><h2>Group<br />4</h2></Link>
+        </div>
 
-      {/* <hr /> */}
+      </Jumbotron>
       <Route exact path='/' component={restaurants1} />
       <Route path='/restaurants2' component={restaurants2} />
       <Route path='/restaurants3' component={restaurants3} />

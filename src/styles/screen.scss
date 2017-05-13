@@ -19,14 +19,13 @@ body {
 
 .jumbo {
   background: #5e5e5e;
-  border-radius: 10PX;
+  border-radius: 10px;
 }
 
 h1 {
   text-align: center;
   font-size: 7vw;
   margin: 30px 0;
-  font-family: 'Luckiest Guy';
   color: #022326;
 }
 
@@ -38,7 +37,7 @@ h2 {
 
 .well {
   background-color: #303030;
-  border-radius: 10PX;
+  border-radius: 10px;
 }
 
 .butt {
@@ -47,26 +46,37 @@ h2 {
   padding: 10px;
   color: white;
   background-color: #949494;
-  text-decoration: none;
   font-weight: bolder;
 }
 
-ul {
-  list-style: none;
+.groups {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  // flex-direction: column;
+  justify-content: space-around;
 
-  li {
+  a {
+    text-decoration: none;
     padding: 10px;
-    display: flex;
+    margin: 5px
   }
 }
+// ul {
+//   list-style: none;
+//   display: flex;
+//   justify-content: space-around;
+//   flex-wrap: wrap;
+//
+//   li {
+//     padding: 10px;
+//     display: flex;
+//     font-size: 25px;
+//     font-family: 'Luckiest Guy';
+//   }
+// }
 
 h2 {
   color: white;
-  padding: 10PX;
+  padding: 10px;
 }
 // #b5babf;
 // #022326;
