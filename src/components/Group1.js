@@ -29,7 +29,7 @@ export default class Group1 extends Component {
           <Button className='butt' block>Joey Brooklyns</Button>
         </a>
         <a href='http://mellowmushroom.com'>
-          <Button className='butt' block>Mellow MushRoom</Button>
+          <Button className='butt' block>Mellow Shroom</Button>
         </a>
       </div>
     </div>

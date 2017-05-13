@@ -11,13 +11,13 @@ export default class Group3 extends Component {
           <Button className='butt' block>Big Apple Buffet</Button>
         </a>
         <a href='https://www.yelp.com/biz/chi-town-beefs-and-dogs-saint-petersburg'>
-          <Button className='butt' block>Chi Town Beef and Dogs</Button>
+          <Button className='butt' block>Chi Town Dogs</Button>
         </a>
         <a href='https://www.midpeninsulaseafood.com'>
-          <Button className='butt' block>Mid Peninsula Seafood</Button>
+          <Button className='butt' block>Mid P Seafood</Button>
         </a>
         <a href='http://www.mazzarosmarket.com'>
-          <Button className='butt' block>Mazzaro's Italian Market</Button>
+          <Button className='butt' block>Mazzaro's</Button>
         </a>
         <a href='http://www.cicciocali.com'>
           <Button className='butt' block>Ciccio's Cali</Button>
@@ -41,7 +41,7 @@ export default class Group3 extends Component {
           <Button className='butt' block>Noble Crust</Button>
         </a>
         <a href='https://www.outback.com/locations/fl/st-pete-4th'>
-          <Button className='butt' block>Outback SteakHouse</Button>
+          <Button className='butt' block>Outback</Button>
         </a>
         <a href='http://www.thaiwokstpete.com'>
           <Button className='butt' block>Thai Wok</Button>
