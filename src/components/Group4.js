@@ -7,8 +7,8 @@ export default class Group4 extends Component {
   render () {
     return <div>
       <div className='well' style={WellStyles}>
-        <a href=''>
-          <Button className='butt' block>Bdog</Button>
+        <a href='http://www.blakescrabcakes.com/'>
+          <Button className='butt' block>Blakes Crab Cake</Button>
         </a>
       </div>
     </div>
