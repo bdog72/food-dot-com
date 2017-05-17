@@ -13,6 +13,12 @@ export default class Group4 extends Component {
         <a href='http://www.docksidedavesgrill.com'>
           <Button className='butt' block>Dave's Dockside</Button>
         </a>
+        <a href='http://www.deucesbbq.com/'>
+          <Button className='butt' block>Deuces BBQ</Button>
+        </a>
+        <a href='https://www.tacosonmexicangrill.com'>
+          <Button className='butt' block>Taco Son</Button>
+        </a>
       </div>
     </div>
   }
