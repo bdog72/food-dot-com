@@ -19,6 +19,9 @@ export default class Group4 extends Component {
         <a href='https://www.tacosonmexicangrill.com'>
           <Button className='butt' block>Taco Son</Button>
         </a>
+        <a href='http://www.keegansseafood.com'>
+          <Button className='butt' block>Keegan's SeaFood</Button>
+        </a>
       </div>
     </div>
   }
