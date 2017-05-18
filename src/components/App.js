@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class App extends Component {
   render () {
     return <div>
-      Bdog
+      <h1 className='header'>Restaurants</h1>
     </div>
   }
 }
