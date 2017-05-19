@@ -1,0 +1,17 @@
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  color: #343a38;
+  padding: 5px;
+  font-size: 5vw;
+}
+
+.router {
+  text-align: center;
+  margin-top: 30px;
+}
