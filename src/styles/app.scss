@@ -12,6 +12,20 @@ body {
   margin-top: 40px;
 }
 
+.pizza {
+  background: #cbed95;
+  color: #343a38;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
 // #f2f2f2
 // #cbed95
 // #6b8650
