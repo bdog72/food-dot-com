@@ -7,6 +7,7 @@ export default class App extends Component {
       <div>
         <ReactRouter />
       </div>
+      <h1 className='header'>That I Enjoy</h1>
     </div>
   }
 }
