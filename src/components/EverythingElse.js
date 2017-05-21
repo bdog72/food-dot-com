@@ -4,12 +4,6 @@ export default class EverythingElse extends Component {
   render () {
     return <div>
       <div className='flex'>
-        <a href='http://luckiebs.com'>
-          <Button className='button' block>Luckie B's</Button>
-        </a>
-        <a href='http://www.jimbosbarbq.com'>
-          <Button className='button' block>Jimbos Pit BBQ</Button>
-        </a>
         <a href='http://www.burgermonger.com'>
           <Button className='button' block>Burger Monger</Button>
         </a>
@@ -49,20 +43,11 @@ export default class EverythingElse extends Component {
         <a href='http://www.babalueats.com/'>
           <Button className='button' block>Babalu</Button>
         </a>
-        <a href='http://www.casualclam.com'>
-          <Button className='button' block>Casual Clam</Button>
-        </a>
-        <a href='https://www.bonefishgrill.com'>
-          <Button className='button' block>BoneFish Grill</Button>
-        </a>
         <a href='http://www.bigapplebuffet.com'>
           <Button className='button' block>Big Apple Buffet</Button>
         </a>
         <a href='https://www.yelp.com/biz/chi-town-beefs-and-dogs-saint-petersburg'>
           <Button className='button' block>Chi Town Dogs</Button>
-        </a>
-        <a href='https://www.midpeninsulaseafood.com'>
-          <Button className='button' block>Mid P Seafood</Button>
         </a>
         <a href='http://www.mazzarosmarket.com'>
           <Button className='button' block>Mazzaro's</Button>
@@ -82,9 +67,6 @@ export default class EverythingElse extends Component {
         <a href='http://www.pofolks.net'>
           <Button className='button' block>Po Folks</Button>
         </a>
-        <a href='http://www.crabshack.com'>
-          <Button className='button' block>Crab Shack</Button>
-        </a>
         <a href='http://noble-crust.com/Noble-Crust-St-Petersburg/Brunch'>
           <Button className='button' block>Noble Crust</Button>
         </a>
@@ -94,26 +76,8 @@ export default class EverythingElse extends Component {
         <a href='http://www.thaiwokstpete.com'>
           <Button className='button' block>Thai Wok</Button>
         </a>
-        <a href='http://www.blakescrabcakes.com'>
-          <Button className='button' block>Blakes Crab Cake</Button>
-        </a>
-        <a href='http://www.docksidedavesgrill.com'>
-          <Button className='button' block>Dave's Dockside</Button>
-        </a>
-        <a href='http://www.deucesbbq.com/'>
-          <Button className='button' block>Deuces BBQ</Button>
-        </a>
         <a href='https://www.tacosonmexicangrill.com'>
           <Button className='button' block>Taco Son</Button>
-        </a>
-        <a href='http://www.keegansseafood.com'>
-          <Button className='button' block>Keegan's SeaFood</Button>
-        </a>
-        <a href='http://www.tedpetersfish.com'>
-          <Button className='button' block>Ted Peters</Button>
-        </a>
-        <a href='http://www.billysstonecrab.com'>
-          <Button className='button' block>Billy's StoneCrab</Button>
         </a>
       </div>
     </div>

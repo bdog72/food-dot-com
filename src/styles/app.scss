@@ -25,6 +25,10 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 5px;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 // #f2f2f2
