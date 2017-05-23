@@ -36,10 +36,18 @@ const BasicExample = () => (
     <div>
       <Jumbotron className='jumbo'>
         <div className='links'>
-          <Button><Link to='/'>Pizza</Link></Button>
-          <Link to='/bbq'>BBQ</Link>
-          <Link to='/seafood'>SeaFood</Link>
-          <Link to='/everythingElse'>Everything Else</Link>
+          <Button className='butt'>
+            <Link to='/'>Pizza</Link>
+          </Button>
+          <Button className='butt'>
+            <Link to='/bbq'>BBQ</Link>
+          </Button>
+          <Button className='butt'>
+            <Link to='/seafood'>SeaFood</Link>
+          </Button>
+          <Button className='butt'>
+            <Link to='/everythingElse'>Everything Else</Link>
+          </Button>
         </div>
       </Jumbotron>
       <div className='router'>
