@@ -5,13 +5,13 @@ export default class BBQ extends Component {
     return <div>
       <div className='flex'>
         <a href='http://luckiebs.com'>
-          <Button className='button'>Luckie B's</Button>
+          <Button className='button'><h1>Luckie B's</h1></Button>
         </a>
         <a href='http://www.jimbosbarbq.com'>
-          <Button className='button'>Jimbos</Button>
+          <Button className='button'><h1>Jimbos</h1></Button>
         </a>
         <a href='http://www.deucesbbq.com'>
-          <Button className='button'>Deuces BBQ</Button>
+          <Button className='button'><h1>Deuces BBQ</h1></Button>
         </a>
       </div>
     </div>
