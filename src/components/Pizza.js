@@ -5,28 +5,28 @@ export default class Pizza extends Component {
     return <div>
       <div className='flex'>
         <a href='https://tobysoriginallittleitalypizza.com'>
-          <Button className='button'>Little Italy</Button>
+          <Button className='button'><h1>Little Italy</h1></Button>
         </a>
         <a href='http://laitaliamia.com'>
-          <Button className='button'>Italia Mia</Button>
+          <Button className='button'><h1>Italia Mia</h1></Button>
         </a>
         <a href='http://paisanospnp.com'>
-          <Button className='button'>Paisanos</Button>
+          <Button className='button'><h1>Paisanos</h1></Button>
         </a>
         <a href='http://www.28gramspizza.com'>
-          <Button className='button'>28 Grams Pizza</Button>
+          <Button className='button'><h1>28 Grams Pizza</h1></Button>
         </a>
         <a href='https://www.pizzabox727.com'>
-          <Button className='button'>Pizza Box</Button>
+          <Button className='button'><h1>Pizza Box</h1></Button>
         </a>
         <a href='http://www.unclemaddios.com'>
-          <Button className='button'>Uncle Maddios</Button>
+          <Button className='button'><h1>Uncle Maddios</h1></Button>
         </a>
         <a href='http://joeybrooklynsfamouspizzakitchen.com'>
-          <Button className='button'>Joey Brooklyn's</Button>
+          <Button className='button'><h1>Joey Brooklyn's</h1></Button>
         </a>
         <a href='http://mellowmushroom.com'>
-          <Button className='button'>Mellow Mushroom</Button>
+          <Button className='button'><h1>Mellow Shroom</h1></Button>
         </a>
       </div>
     </div>
