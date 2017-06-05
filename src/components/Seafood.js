@@ -31,6 +31,9 @@ export default class Seafood extends Component {
         <a href='http://www.billysstonecrab.com'>
           <Button className='button' block><h1>Billy's Stone-C</h1></Button>
         </a>
+        <a href='http://www.madfishonline.com/'>
+          <Button className='button' block><h1>Mad Fish</h1></Button>
+        </a>
       </div>
     </div>
   }
