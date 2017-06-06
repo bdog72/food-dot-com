@@ -1,3 +1,3 @@
 <a href=''>
-<Button className='button'></Button>
+<Button className='button' block><h1></h1></Button>
 </a>
