@@ -8,6 +8,7 @@ export default class App extends Component {
       <div>
         <ReactRouter />
       </div>
+      {/* <h1>Bozo Bdog</h1> */}
     </div>
   }
 }

@@ -2,10 +2,18 @@ import React, { Component } from 'react'
 import Pizza from './Pizza'
 import BBQ from './BBQ'
 import Seafood from './Seafood'
+// import Home from './Home'
+// import App from './App'
 import EverythingElse from './EverythingElse'
 import { Jumbotron, Button } from 'react-bootstrap'
 import '../styles/reactrouter.scss'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+
+// const app = () => (
+//   <div>
+//     <App />
+//   </div>
+// )
 
 const pizza = () => (
   <div>
@@ -36,6 +44,9 @@ const BasicExample = () => (
     <div>
       <Jumbotron className='jumbo'>
         <div className='links'>
+          {/* <Button className='butt'>
+            <Link to='/'>App</Link>
+          </Button> */}
           <Button className='butt'>
             <Link to='/'>Pizza</Link>
           </Button>
@@ -51,6 +62,7 @@ const BasicExample = () => (
         </div>
       </Jumbotron>
       <div className='router'>
+        {/* <Route exact path='/' component={app} /> */}
         <Route exact path='/' component={pizza} />
         <Route path='/bbq' component={bbq} />
         <Route path='/seafood' component={seafood} />
