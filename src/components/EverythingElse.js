@@ -85,6 +85,9 @@ export default class EverythingElse extends Component {
         <a href='http://redmesarestaurant.com'>
           <Button className='button' block><h1>Red Mesa</h1></Button>
         </a>
+        <a href='https://www.yelp.com/biz/williams-sub-shop-saint-petersburg'>
+          <Button className='button' block><h1>Wills Subs</h1></Button>
+        </a>
       </div>
     </div>
   }
