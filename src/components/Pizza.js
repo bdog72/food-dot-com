@@ -28,6 +28,9 @@ export default class Pizza extends Component {
         <a href='http://mellowmushroom.com'>
           <Button className='button'><h1>Mellow Shroom</h1></Button>
         </a>
+        <a href='http://stpete.giannisnypizza.com'>
+          <Button className='button' block><h1>Gianni's</h1></Button>
+        </a>
       </div>
     </div>
   }
