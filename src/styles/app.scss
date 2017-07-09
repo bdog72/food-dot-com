@@ -12,6 +12,11 @@ body {
   margin-top: 40px;
 }
 
+a .button:active,
+a .button:focus {
+  outline: none;
+}
+
 .button {
   background: #cbed95;
   color: #343a38;
