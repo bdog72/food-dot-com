@@ -16,6 +16,9 @@ export default class BBQ extends Component {
         <a href='https://www.yelp.com/biz/rush-hour-chicken-and-waffles-saint-petersburg?osq=Chicken+and+Waffles'>
           <Button className='button' block><h1>Rush Hour C&W</h1></Button>
         </a>
+        <a href='http://www.smokin19.com'>
+          <Button className='button' block><h1>Smokin 19</h1></Button>
+        </a>
       </div>
     </div>
   }
